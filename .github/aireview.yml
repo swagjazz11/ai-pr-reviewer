@@ -1,0 +1,8 @@
+# Per-repo settings (place this file in .github/ of the repo being reviewed)
+enabled: true
+strictness: normal   # low | normal | high
+max_files: 15
+ignore:
+  - package-lock.json
+  - "**/*.min.js"
+  - "dist/**"
