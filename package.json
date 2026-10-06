@@ -1,0 +1,16 @@
+{
+  "name": "ai-pr-reviewer",
+  "version": "1.0.0",
+  "description": "A GitHub App that automatically reviews pull requests with an LLM and posts inline feedback.",
+  "main": "src/index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "probot run ./src/index.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "js-yaml": "^4.1.0",
+    "probot": "^13.4.0"
+  },
+  "engines": { "node": ">=18" }
+}
